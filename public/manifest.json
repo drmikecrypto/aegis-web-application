@@ -1,0 +1,16 @@
+{
+  "name": "Aegis DAO",
+  "short_name": "Aegis",
+  "description": "Groth16 ZK and stealth-oriented flows where verifiers are deployed; on-chain DAO governance. Sonic settlement; Ethereum bridge paths. No logo images in-app — verify contracts and choose your RPC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#4a9e5f",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "serviceworker": {
+    "src": "/sw.js",
+    "scope": "/",
+    "use_cache": true
+  }
+}
